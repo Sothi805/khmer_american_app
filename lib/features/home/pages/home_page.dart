@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
                     // Handle notification tap
                   },
                 ),
-                SizedBox(height: 2.5.h),
+                SizedBox(height: 2.h),
                 SizedBox(
                   width: double.infinity,
                   child: Column(

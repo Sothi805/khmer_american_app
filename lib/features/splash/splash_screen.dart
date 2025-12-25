@@ -37,7 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             SizedBox(height: 2.h),
             Text(
-              'Assignment App',
+              'Khmer American School',
               style: TextStyle(
                 fontSize: 18.sp,
                 fontWeight: FontWeight.bold,
