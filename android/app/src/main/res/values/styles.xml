@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
-    <style name="LaunchTheme" parent="@android:style/Theme.SplashScreen">
-        <!-- Make splash background match app -->
-        <item name="windowSplashScreenBackground">@android:color/transparent</item>
 
-        <!-- Remove splash icon -->
-        <item name="windowSplashScreenAnimatedIcon">@null</item>
-
-        <!-- Disable icon animation -->
-        <item name="windowSplashScreenAnimationDuration">0</item>
-
-        <!-- Required: theme after splash -->
-        <item name="postSplashScreenTheme">@style/NormalTheme</item>
-    </style>
-
-    <!-- Theme applied to the Android Window as soon as the process has started.
-         This theme determines the color of the Android Window while your
-         Flutter UI initializes, as well as behind your Flutter UI while its
-         running.
-
-         This Theme is only used starting with V2 of Flutter's Android embedding. -->
-    <style name="NormalTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="LaunchTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
+
+    <style name="NormalTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
 </resources>

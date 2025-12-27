@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'features/home/home_screen.dart';
-import 'features/splash/splash_screen.dart';
+//import 'features/splash/splash_screen.dart';
 import 'features/quick_actions/check_in_screen.dart';
 import 'features/quick_actions/attendance_screen.dart';
 import 'features/quick_actions/score_exam_screen.dart';
@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
             useMaterial3: true,
             scaffoldBackgroundColor: const Color(0xFFF5F7F8),
           ),
-          initialRoute: '/',
+          initialRoute: '/home',
           routes: {
-            '/': (context) => const SplashScreen(),
+            //'/': (context) => const SplashScreen(),
             '/home': (context) => const HomeScreen(),
             '/check-in': (context) => const CheckInScreen(),
             '/attendance': (context) => const AttendanceScreen(),
